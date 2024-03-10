@@ -1,12 +1,12 @@
 class CommandStorage < Formula
   include Language::Python::Virtualenv
 
-  desc "A command line tool to store CLI commands for quick access and usage."
+  desc "Command-line tool to store CLI commands for quick access and usage"
   homepage "https://github.com/ashu-tosh-kumar/command-storage"
   url "https://files.pythonhosted.org/packages/4a/d3/b873221bbaf8056a72b7bed72ce8d3f5adbfff2f6a853f142df223ad70a4/command_storage-0.1.0.tar.gz"
   sha256 "34bf37f2b4149e01cb699c0466ce18e6ae9537c9358896d9f4d330426f5a102c"
 
-  depends_on "python3"
+  depends_on "python@3.9"
 
   resource "annotated-types" do
     url "https://files.pythonhosted.org/packages/67/fe/8c7b275824c6d2cd17c93ee85d0ee81c090285b6d52f4876ccc47cf9c3c4/annotated_types-0.6.0.tar.gz"
@@ -49,8 +49,8 @@ class CommandStorage < Formula
   end
 
   resource "rapidfuzz" do
-    url "https://files.pythonhosted.org/packages/d4/f4/039e35e99c967100d73616ec08d4c02325f67e0d5c32a6d5a49a7f620942/rapidfuzz-3.6.1.tar.gz"
-    sha256 "35660bee3ce1204872574fa041c7ad7ec5175b3053a4cb6e181463fc07013de7"
+    url "https://files.pythonhosted.org/packages/11/7c/36511ff0e2e5f6cce4e854dfc1974a1519929214a38a165322f38dd01a19/rapidfuzz-3.6.2.tar.gz"
+    sha256 "cf911e792ab0c431694c9bf2648afabfd92099103f2e31492893e078ddca5e1a"
   end
 
   resource "rich" do
@@ -84,7 +84,6 @@ class CommandStorage < Formula
   end
 
   def install
-    virtualenv_create(libexec, "python3")
     virtualenv_install_with_resources
   end
 
