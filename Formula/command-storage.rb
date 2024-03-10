@@ -5,7 +5,7 @@ class CommandStorage < Formula
   homepage "https://github.com/ashu-tosh-kumar/command-storage"
   url "https://github.com/ashu-tosh-kumar/command-storage/releases/tag/v0.1.0"
   version "0.1.0"
-  sha256 "0439326294b699ee8010a251ac4abe4e17ca0365bc9784f816d6356fac89b530"
+  sha256 "93defcb5addf53454689e79a8d5a907b5b93550d3185a3d1fb66c00c934036ef"
   license "MIT"
 
   def install
