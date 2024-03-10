@@ -13,6 +13,7 @@ brew install command-storage
 ## Release History
 
 `0.1.0` - First working release (built using Python 3.11)
+`0.1.1` - Lower down python version to 3.9 to support wider platforms.
 
 ## Credits
 
