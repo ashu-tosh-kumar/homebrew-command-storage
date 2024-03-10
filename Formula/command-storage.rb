@@ -8,11 +8,15 @@ class CommandStorage < Formula
   sha256 "2326eeb2bf1a2332b9ff445bb96387e3f845b9d1a369079788fd0f4448385db8"
   license "MIT"
 
+  depends_on "python@3.9"
+
   def install
-    system "./configure", "--disable-silent-rules", *std_configure_args
+    virtualenv_install_with_resources
   end
 
+
   test do
-    false
+    # Add test code here
+    system "#{bin}/your-cli-tool", "--version"
   end
 end
