@@ -3,8 +3,8 @@ class CommandStorage < Formula
 
   desc "Command-line tool to store CLI commands for quick access and usage"
   homepage "https://github.com/ashu-tosh-kumar/command-storage"
-  url "https://files.pythonhosted.org/packages/de/0b/957f1469224a859f84cab71cc3b34ef30ebdd12317632b861edf0c51c241/command_storage-0.1.1.tar.gz"
-  sha256 "82f214405001162ac3f2979fcbc8a9e9d19652bcb23f0b351044b499f20b0378"
+  url "https://files.pythonhosted.org/packages/25/89/119cae348b1f939e3f4b8efa5c3147d7ce8e864b719daf2af40ffaf0aa93/command_storage-0.1.2.tar.gz"
+  sha256 "1787d5e5b957d267a7377d715c0dce6fcb6368f840f6fc3360eb39e71c2f81e6"
   license "MIT"
 
   depends_on "rust" => :build

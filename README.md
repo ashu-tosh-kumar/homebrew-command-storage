@@ -12,8 +12,7 @@ brew install command-storage
 
 ## Release History
 
-`0.1.0` - First working release (built using Python 3.11)
-`0.1.1` - Lower down python version to 3.9 to support wider platforms.
+Checkout the [Project Repository Release History](https://github.com/ashu-tosh-kumar/command-storage/tree/main?tab=readme-ov-file#release-history).
 
 ## Credits
 
