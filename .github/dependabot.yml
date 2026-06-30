@@ -1,0 +1,12 @@
+# Dependabot for a Homebrew tap: no runtime package manifest (Gemfile) exists,
+# so only the github-actions ecosystem applies — it keeps workflow action
+# versions current (supply-chain hardening). Grouped to minimize PR noise.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      github-actions:
+        patterns: ["*"]
