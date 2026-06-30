@@ -1,5 +1,9 @@
 # homebrew-command-storage
 
+[![License: MIT](https://img.shields.io/github/license/ashu-tosh-kumar/homebrew-command-storage?style=flat-square&color=blue)](LICENSE)
+[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/ashu-tosh-kumar/homebrew-command-storage?style=flat-square&label=openssf%20scorecard)](https://scorecard.dev/viewer/?uri=github.com/ashu-tosh-kumar/homebrew-command-storage)
+<!-- OpenSSF Best Practices: register at https://www.bestpractices.dev/en/projects/new then add: [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/PROJECT_ID/badge)](https://www.bestpractices.dev/projects/PROJECT_ID) -->
+
 This is homebrew recipe to install
 [command-storage](https://github.com/ashu-tosh-kumar/command-storage) using Homebrew.
 
